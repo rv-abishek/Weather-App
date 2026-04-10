@@ -1,72 +1,16 @@
-## 🌦️ Weather App
+# React + Vite
 
-This is a simple weather application that shows real-time weather details for any city.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* Search weather by city name
-* Get weather using your current location
-* Toggle temperature between °C and °F
-* Shows real-time weather data
-* Simple and responsive design
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Built With
+## Expanding the ESLint configuration
 
-* React.js
-* JavaScript
-* HTML & CSS
-* Weather API
-
----
-
-## ⚙️ How to Run
-
-1. Clone the project
-
-```
-git clone https://github.com/your-username/weather-app.git
-```
-
-2. Go to the folder
-
-```
-cd weather-app
-```
-
-3. Install dependencies
-
-```
-npm install
-```
-
-4. Start the app
-
-```
-npm start
-```
-
----
-
-## 🔑 API Key
-
-* Get an API key from a weather service (like OpenWeatherMap)
-* Add it in your project file
-
-```
-const API_KEY = "your_api_key";
-```
-
----
-
-## 📌 Usage
-
-* Enter a city name to check weather
-* Allow location access for current weather
-* Use toggle button to change °C / °F
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
