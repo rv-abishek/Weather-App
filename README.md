@@ -64,8 +64,9 @@ const API_KEY = "your_api_key";
 
 ## 📌 Usage
 
-* Enter a city name to check weather
+* Enter a city name to check the weather
 * Allow location access for current weather
 * Use toggle button to change °C / °F
+  
 
 
